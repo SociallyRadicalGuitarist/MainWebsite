@@ -1,0 +1,763 @@
+@font-face {
+    font-family: 'romande';
+    src: url(Fonts/romande-adf.std-italic.ttf);
+}
+
+header {
+    display: block;
+    background-color: black;
+}
+
+a:link {
+    font-size: 2.9rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+#past_shows {
+    margin-right: auto;
+    margin-left: auto;
+    place-items: center;
+    display: grid;
+}
+
+button {
+    background-color: red;
+    color: black;
+    padding: 1rem;
+    border: none;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: auto;
+    width: 18.3rem;
+    height: 5.8rem;
+    margin-bottom: 0.83rem;
+    margin-left: 2.1rem;
+}
+
+body {
+    display: grid;
+}
+
+#logo_main_page {
+    height: 25rem;
+    width: 25rem;
+}
+
+#sponsors {
+    display: block;
+    place-items: center;
+}
+
+#sponsors_message {
+    font-size: 2.5rem;
+    color: red;
+    font-weight: bold;
+    margin-top: -5.8rem;
+    margin-right: 3.3rem;
+    text-align: center;
+}
+
+#ckms_logo {
+    height: 1.6em;
+    width: 2.8em;
+    margin-right: 16.7rem; 
+    margin-left: 25rem;
+}
+
+#cpc_logo {
+    height: 1.6em;
+    width: 1.6em; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#acic_logo {
+    margin-left: 16.7rem;
+}
+
+main {
+    display: block;
+    background-color: red;
+}
+
+.main_image {
+    width: 100%;
+}
+
+.welcome {
+    font-family:'romande';
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.intro_messages {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+#past_show_options {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    place-items: center;
+}
+
+.selected_links:link {
+    color: red;
+}
+
+.selected_links:hover {
+    color: white;
+}
+
+.show_sections {
+    border: 1em solid black;
+}
+
+footer {
+    display: grid;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'romande';
+    margin-right: 3.3rem;
+    color: red;
+    font-size: 7rem;
+    text-align: right;
+    margin-top: -20rem;
+    margin-bottom: 20rem;
+}
+
+.video_sections {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'romande';
+}
+
+button.highlight {
+    background-color: black;
+}
+
+button.highlight:link {
+    color: red;
+}
+
+#about_image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#social_media {
+    display: block;
+    justify-content: space-evenly;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner {
+    height: 29.2rem;
+    width: 29.2rem;
+    display: inline-block;
+    margin-right: 6rem;
+}
+
+#facebook {
+    width: 2.5em;
+    height: 2.5em;
+    display: inline-block;
+    margin-right: 6rem;
+    margin-bottom: 11.25rem;
+}
+
+#youtube {
+    width: 2.5em;
+    height: 2.5em;
+    display: inline-block;
+    margin-right: 6rem;
+    margin-bottom: 11.25rem;
+}
+
+#twitter {
+    width: 2.5em;
+    height: 2.5em;
+    display: inline-block;
+    margin-right: 6rem;
+    margin-bottom: 11.25rem;
+}
+
+#instagram {
+    width: 2.5em;
+    height: 2.5em;
+    display: inline-block;
+    margin-right: 6rem;
+    margin-bottom: 11.25rem;
+}
+
+#attribution {
+    color: white;
+}
+
+.freepik:link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact:link {
+    color: white;
+}
+
+#copyright {
+    margin-top: -2.5rem;
+    margin-bottom: 7.5rem;
+    color: red;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'romande';
+    font-weight: bold;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 728px) {
+    header {
+        display: block;
+        background-color: black;
+        place-items: center;
+    }
+
+    a:link {
+        font-size: 2.9rem;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    button {
+        background-color: red;
+        color: black;
+        padding: 1rem;
+        border: none;
+        justify-content: space-between;
+        text-decoration: none;
+        margin: auto;
+        width: 18.3rem;
+        height: 5.8rem;
+        margin-bottom: 0.83rem;
+        margin-left: 2.1rem;
+    }
+
+    #logo_main_page {
+        height: 25rem;
+        width: 25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-family: 'romande';
+        margin-right: auto;
+        margin-left: auto;
+        color: red;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .video_sections {
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'romande';
+    }
+
+    .videos {
+        width: 100%;
+    }
+
+    #sponsors {
+        display: block;
+        place-items: center;
+    }
+
+    #sponsors_message {
+        font-size: 1.25rem;
+        color: red;
+        font-weight: bold;
+        margin: auto;
+        text-align: center;
+    }
+
+    #ckms_logo {
+        height: 1.6em;
+        width: 2.8em;
+        margin-right: auto; 
+        margin-left: auto;
+    }
+
+    #cpc_logo {
+        height: 1.6em;
+        width: 1.6em; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #acic_logo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    main {
+        display: block;
+        background-color: red;
+    }
+
+    .main_image {
+        width: 100%;
+    }
+
+    .welcome {
+        font-family:'romande';
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+
+    .intro_messages {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+
+    .contact:link {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        display: grid;
+        background-color: black;
+    }
+
+    button.highlight {
+        background-color: black;
+        color: red;
+        text-decoration: none;
+    }
+
+    #social_media {
+        display: grid;
+    }
+
+    #banner {
+        height: 3em;
+        width: 3em; 
+        grid-row: 1/2;
+    }
+
+    #facebook {
+        width: 1em;
+        height: 1em;
+        grid-row: 2/3
+    }
+
+    #youtube {
+        width: 1em;
+        height: 1em;
+        grid-row: 3/4;
+    }
+
+    #twitter {
+        width: 1em;
+        height: 1em; 
+        grid-row: 4/5;
+    }
+
+    #instagram {
+        width: 1em;
+        height: 1em;
+    }
+
+    #attribution {
+        color: white;
+    }
+
+    .freepik:link {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #copyright {
+        margin-top: -2.5rem;
+        margin-bottom: 7.5rem;
+        color: red;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: 'romande';
+    }
+}
+
+@media only screen and (min-device-width: 728px) and (max-device-width: 1028px) {
+    header {
+        display: block;
+        background-color: black;
+    }
+    
+    a:link {
+        font-size: 2.9rem;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    button {
+        background-color: red;
+        color: black;
+        padding: 1rem;
+        border: none;
+        justify-content: space-between;
+        text-decoration: none;
+        margin: auto;
+        width: 18.3rem;
+        height: 5.8rem;
+        margin-bottom: 0.83rem;
+        margin-left: 2.1rem;
+    }
+    
+    #logo_main_page {
+        height: 25rem;
+        width: 25rem;
+    }
+
+    h1 {
+        font-family: 'romande';
+        color: red;
+        font-size: 2.4rem;
+        float: inline-end;
+        margin-top: -15rem;
+        margin-right: 1rem;
+    }
+
+    .video_sections {
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: 'romande';
+    }
+
+    .videos {
+        width: 100%;
+    }
+    
+    #sponsors {
+        display: block;
+        place-items: center;
+    }
+    
+    #sponsors_message {
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        color: red;
+        font-weight: bold;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #ckms_logo {
+        height: 1.6em;
+        width: 2.8em;
+        margin-left: 10rem;
+        margin-right: auto;
+    }
+    
+    #cpc_logo {
+        height: 1.6em;
+        width: 1.6em; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #acic_logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    main {
+        display: block;
+        background-color: red;
+    }
+    
+    .main_image {
+        width: 100%;
+    }
+    
+    .welcome {
+        font-family:'romande';
+        font-size: 5rem;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+    
+    .intro_messages {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 0.7rem;
+    }
+
+    .color:link {
+        font-size: 2rem;
+    }
+    
+    footer {
+        display: grid;
+        background-color: black;
+    }
+    
+    button.highlight:link {
+        background-color: black;
+        color: red;
+        text-decoration: none;
+    }
+    
+    #social_media {
+        display: block;
+        justify-content: space-evenly;
+        place-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #banner {
+        height: 29.2rem;
+        width: 29.2rem;
+    }
+    
+    #facebook {
+        width: 2.5em;
+        height: 2.5em;
+        margin-bottom: 11.25rem;
+    }
+    
+    #youtube {
+        width: 2.5em;
+        height: 2.5em;
+        margin-left: 6rem;
+        margin-bottom: 11.25rem;
+    }
+    
+    #twitter {
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 6rem;
+        margin-bottom: 11.25rem;
+    }
+    
+    #instagram {
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 6rem;
+        margin-bottom: 11.25rem;
+    }
+    
+    #attribution {
+        color: white;
+    }
+    
+    .freepik:link {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    
+    #copyright {
+        margin-top: -2.5rem;
+        margin-bottom: 7.5rem;
+        color: red;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'romande';
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-width: 728px) {
+        header {
+            display: block;
+            background-color: black;
+            place-items: center;
+        }
+    
+        a:link {
+            font-size: 2.9rem;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    
+        button {
+            background-color: red;
+            color: black;
+            padding: 1rem;
+            border: none;
+            justify-content: space-between;
+            text-decoration: none;
+            margin: auto;
+            width: 18.3rem;
+            height: 5.8rem;
+            margin-bottom: 0.83rem;
+            margin-left: 2.1rem;
+        }
+    
+        #logo_main_page {
+            height: 25rem;
+            width: 25rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        h1 {
+            font-family: 'romande';
+            margin-right: auto;
+            margin-left: auto;
+            color: red;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+    
+        #sponsors {
+            display: block;
+            place-items: center;
+        }
+    
+        #sponsors_message {
+            font-size: 1.25rem;
+            color: red;
+            font-weight: bold;
+            margin: auto;
+            text-align: center;
+        }
+    
+        #ckms_logo {
+            height: 1.6em;
+            width: 2.8em;
+            margin-right: auto; 
+            margin-left: auto;
+        }
+    
+        #cpc_logo {
+            height: 1.6em;
+            width: 1.6em; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        #acic_logo {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    
+        main {
+            display: block;
+            background-color: red;
+        }
+    
+        .main_image {
+            width: 100%;
+        }
+    
+        .welcome {
+            font-family:'romande';
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+        }
+    
+        .intro_messages {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+    
+        footer {
+            display: grid;
+            background-color: black;
+        }
+    
+        button.highlight {
+            background-color: black;
+            color: red;
+            text-decoration: none;
+        }
+    
+        #social_media {
+            display: grid;
+        }
+    
+        #banner {
+            height: 3em;
+            width: 3em; 
+            grid-row: 1/2;
+        }
+    
+        #facebook {
+            width: 1em;
+            height: 1em;
+            grid-row: 2/3
+        }
+    
+        #youtube {
+            width: 1em;
+            height: 1em;
+            grid-row: 3/4;
+        }
+    
+        #twitter {
+            width: 1em;
+            height: 1em; 
+            grid-row: 4/5;
+        }
+    
+        #instagram {
+            width: 1em;
+            height: 1em;
+        }
+    
+        #attribution {
+            color: white;
+        }
+    
+        .freepik:link {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            text-align: center;
+        }
+    
+        #copyright {
+            margin-top: -2.5rem;
+            margin-bottom: 7.5rem;
+            color: red;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+            font-family: 'romande';
+        }
+    }
+}
+
+
