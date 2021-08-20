@@ -455,8 +455,9 @@ button.highlight:link {
         font-family: 'romande';
         color: red;
         font-size: 2.4rem;
-        float: inline-end;
-        margin-top: -15rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         margin-right: 1rem;
     }
 
@@ -649,8 +650,8 @@ button.highlight:link {
         }
     
         #sponsors {
-            display: block;
-            place-items: center;
+            display: flex;
+            align-items: stretch;
         }
     
         #sponsors_message {
@@ -664,20 +665,17 @@ button.highlight:link {
         #ckms_logo {
             height: 1.6em;
             width: 2.8em;
-            margin-right: auto; 
-            margin-left: auto;
-        }
+            align-self: center;
+        } 
     
         #cpc_logo {
             height: 1.6em;
             width: 1.6em; 
-            margin-left: auto;
-            margin-right: auto;
+            float: right;
         }
-    
+
         #acic_logo {
-            margin-right: auto;
-            margin-left: auto;
+            align-self: center;
         }
     
         main {
