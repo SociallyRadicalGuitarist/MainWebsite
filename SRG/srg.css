@@ -304,6 +304,10 @@ button.highlight:link {
         text-align: center;
     }
 
+    #cell_wrapper {
+        display: inline-flex;
+    }
+
     #ckms_logo {
         height: 1.6em;
         width: 2.8em;
@@ -316,6 +320,8 @@ button.highlight:link {
         width: 1.6em; 
         margin-left: auto;
         margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     #acic_logo {
@@ -650,8 +656,8 @@ button.highlight:link {
         }
     
         #sponsors {
-            display: flex;
-            align-items: stretch;
+            display: inline-flex;
+            align-items: baseline;
         }
     
         #sponsors_message {
@@ -665,17 +671,11 @@ button.highlight:link {
         #ckms_logo {
             height: 1.6em;
             width: 2.8em;
-            align-self: center;
         } 
     
         #cpc_logo {
             height: 1.6em;
             width: 1.6em; 
-            float: right;
-        }
-
-        #acic_logo {
-            align-self: center;
         }
     
         main {
