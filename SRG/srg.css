@@ -504,6 +504,8 @@ button.highlight:link {
         width: 1.6em; 
         margin-left: auto;
         margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     
     #acic_logo {
