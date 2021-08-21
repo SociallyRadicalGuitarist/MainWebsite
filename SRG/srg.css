@@ -428,6 +428,10 @@ button.highlight:link {
         text-align: center;
     }
 
+    iframe {
+        width: 100%;
+    }
+
     #copyright {
         margin-top: -2.5rem;
         margin-bottom: 7.5rem;
