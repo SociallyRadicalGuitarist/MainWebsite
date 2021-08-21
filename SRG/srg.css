@@ -277,7 +277,7 @@ button.highlight:link {
         margin-right: auto;
         margin-left: auto;
         color: red;
-        font-size: 150%;
+        font-size: 175%;
         text-align: center;
         margin-top: auto;
         margin-bottom: 2%;
@@ -299,7 +299,7 @@ button.highlight:link {
     }
 
     #sponsors_message {
-        font-size: 75%;
+        font-size: 100%;
         color: red;
         font-weight: bold;
         margin: auto;
@@ -312,10 +312,10 @@ button.highlight:link {
 
     #ckms_logo {
         height: 65%;
-        width: 85%;
+        width: 100%;
         margin-right: auto; 
         margin-left: auto;
-        padding-left: 1.5rem;
+        padding-left: 1rem;
     }
 
     #cpc_logo {
@@ -329,7 +329,7 @@ button.highlight:link {
 
     #acic_logo {
         height: 65%;
-        width: 85%;
+        width: 100%;
         margin-right: auto;
         margin-left: auto;
     }
@@ -583,12 +583,14 @@ button.highlight:link {
     #banner {
         height: 29.2rem;
         width: 29.2rem;
+        padding-left: 15%;
     }
     
     #facebook {
         width: 2.5em;
         height: 2.5em;
         margin-bottom: 11.25rem;
+        padding-left: 20%;
     }
     
     #youtube {
@@ -601,15 +603,15 @@ button.highlight:link {
     #twitter {
         width: 2.5em;
         height: 2.5em;
-        margin-right: 6rem;
         margin-bottom: 11.25rem;
+        padding-left: 20%;
     }
     
     #instagram {
         width: 2.5em;
         height: 2.5em;
-        margin-right: 6rem;
         margin-bottom: 11.25rem;
+        padding-left: 13%;
     }
     
     #attribution {
