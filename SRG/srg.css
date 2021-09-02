@@ -147,6 +147,11 @@ h1 {
     font-family: 'romande';
 }
 
+ul {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 button.highlight {
     background-color: black;
     color: red;
